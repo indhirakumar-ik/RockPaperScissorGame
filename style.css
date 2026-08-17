@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    background-color: #49BBD4;
+    text-align: center;
+    border: 3px solid;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button button{
+    padding: 8px;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: #47D794;
+    font-family: cursive;
+    transition: transform 0.4s ease-in-out;
+}
+
+.result{
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.button button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
