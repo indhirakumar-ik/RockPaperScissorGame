@@ -38,3 +38,34 @@ body{
     transform: scale(1.2);
     cursor: pointer;
 }
+#actualResult{
+    font-size: 10px;
+}
+
+.resultcontainer{
+    border: 2px solid black;
+    margin-top: 15px;
+    border-radius: 18px;
+    display: inline-block;
+}
+.resultcontainer #actualResult{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #00dfdf;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+#reset:hover{
+    transform: scale3d(1.5, 1.5, 1.5);
+}
+.resetcontainer{
+    margin-top: 11px;
+}
+#reset{
+    font-size: 20px;
+    border: 1px solid;
+    border-radius: 6px;
+    background-color: chartreuse;
+    transition: 1s cubic-bezier(0.32, 0.82, 1, 1);
+}

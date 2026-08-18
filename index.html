@@ -14,16 +14,28 @@
 
 
         <div class="button">
-            <button id="rock">Rock</button>
-            <button id="paper">Paper</button>
-            <button id="scissor">Scissor</button>
+            <button id="rock" onclick="playgame('rock')">Rock</button>
+            <button id="paper" onclick="playgame('paper')">Paper</button>
+            <button id="scissor" onclick="playgame('scissor')">Scissor</button>
         </div>
 
-        <div class="result">
-            <p>Result</p>
-            <p>Score</p>
+        <div class="resultcontainer">
+            <div id="actualResult">
+                <p id="youroption">Your option:</p>
+                <p id="computeroption">Computer option:</p>
+                <p id="result">Result:</p>
+    
+                <p id="yourscore">Your score</p>
+                <p id="computerscore">Computer score</p>
+            </div>
+        </div>
+
+        <div class="resetcontainer">
+            <button id="reset">Reset</button>
         </div>
     </div>
+
+    
 
 
     <script src="script.js"></script>
