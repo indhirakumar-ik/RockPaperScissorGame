@@ -67,5 +67,5 @@ body{
     border: 1px solid;
     border-radius: 6px;
     background-color: chartreuse;
-    transition: 1s cubic-bezier(0.32, 0.82, 1, 1);
+    transition: 0.2s cubic-bezier(0.32, 0.82, 1, 1);
 }

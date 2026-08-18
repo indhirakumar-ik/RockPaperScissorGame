@@ -35,4 +35,8 @@ function playgame(playerChoice){
 
     document.getElementById("yourscore").textContent="Your score : "+yourNumber;
     document.getElementById("computerscore").textContent="computer score : "+computerNumber;
+
+}
+function reset(){
+    alert("this will update soon i will do in the day 2 task");
 }
