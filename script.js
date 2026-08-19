@@ -38,5 +38,14 @@ function playgame(playerChoice){
 
 }
 function reset(){
-    alert("this will update soon i will do in the day 2 task");
+    document.getElementById("youroption").textContent="Your option : ";
+    document.getElementById("computeroption").textContent="computer option : ";
+
+    document.getElementById("result").textContent="Result";
+
+    document.getElementById("yourscore").textContent="Your score : ";
+    document.getElementById("computerscore").textContent="computer score : ";
+
+    yourNumber=0;
+    computerNumber=0;
 }
