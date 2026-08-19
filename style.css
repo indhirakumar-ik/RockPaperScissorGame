@@ -2,6 +2,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(120deg, #4facfe, #fe8400);
 }
 
 
@@ -11,6 +12,7 @@ body{
     border: 3px solid;
     padding: 30px;
     border-radius: 15px;
+    margin-top: 10%;
 }
 
 .button{
